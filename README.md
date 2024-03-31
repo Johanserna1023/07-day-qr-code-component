@@ -1,0 +1,1 @@
+# 07-day-qr-code-component
