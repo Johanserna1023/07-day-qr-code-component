@@ -1,0 +1,73 @@
+/* -----------------
+Tabla de contenidos:
+--------------------
+1. Fuente ................ 11
+2. Variables ............. 17
+3. Estilos generales ..... 32
+-------------------- 
+*/
+
+
+/* ----- Fuente ----- */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+/* ----- Variables ----- */
+:root{
+    /* Colores primarios */
+    --Soft-blue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+    
+    /* Colores neutrales */
+    --Very-dark-blue-main-bg: hsl(217, 54%, 11%);
+    --Very-dark-blue-card-bg: hsl(216, 50%, 16%);
+    --Very-dark-blue: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+    --bg-body: #D5E1EE;
+    /* Tipografía */
+
+}
+
+
+/* ----------------------------- */
+/* ----- Estilos generales ----- */
+/* ----------------------------- */
+body{
+    font-family: "Outfit", sans-serif;;
+}
+
+.container {
+    height: 100vh;
+    background-color: var(--bg-body);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.card{
+    background-color: var(--White);
+    /* border-style: dashed; */
+    width: 300px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 1px 1px 15px rgb(166, 166, 166);
+}
+
+.card img{
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+p{
+    font-size: 17px;
+    opacity: .5;
+}
